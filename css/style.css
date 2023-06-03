@@ -114,6 +114,30 @@ h1, .subtitle-home {
     color: var(--text-header);
 }
 
+@media (max-width: 600px) {
+    h1, .subtitle-home {
+        font-size: 64px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    h1, .subtitle-home {
+        font-size: 72px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1, .subtitle-home {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    h1, .subtitle-home {
+        font-size: 88px;
+    }
+}
+
 h2 {
     font-family: 'Unbounded', sans-serif;
     font-size: 90px;
@@ -170,6 +194,24 @@ h2 {
     padding: 24px;
 }
 
+@media (max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-list {
+        gap: 32px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .nav-list {
+        gap: 64px;
+    }
+}
+
 .nav-item {
     list-style-type: none;
     font-style: normal;
@@ -177,6 +219,18 @@ h2 {
     font-size: 20px;
     line-height: 120%;
     color: var(--text-menu);
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .nav-item {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .nav-item {
+        font-size: 18px;
+    }
 }
 
 .nav-item:hover {
@@ -201,6 +255,43 @@ h2 {
     object-position: top;
 
     border-radius: 400px;
+}
+
+@media (max-width: 600px) {
+    .img-home {
+        top: 70px;
+        left: 280px;
+
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .img-home {
+        top: 50px;
+        left: 380px;
+
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .img-home {
+        top: 34px;
+        left: 480px;
+
+        width: 290px;
+        height: 290px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .img-home {
+        top: 34px;
+        left: 580px;
+    }
 }
 
 .text-home{
