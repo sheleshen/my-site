@@ -221,6 +221,16 @@ h2, .about-title {
     padding-top: 80px;
 }
 
+.about-subtitle {
+    font-weight: 700;
+    background-color: var(--main-yellow);
+}
+
+.fillet-shape {
+    border-radius: 30px;
+    padding: 16px 48px 15px 48px;
+}
+
 /* ГЛАВНАЯ */
 
 
@@ -287,250 +297,10 @@ h2, .about-title {
 }
 
 
-/* баннер */
-
-.section-home {
-    padding-top: 24px;
-}
-
-.img-home {
-    position: absolute;
-    top: 34px;
-    left: 680px;
-
-    width: 310px;
-    height: 310px;
-    object-fit: cover;
-    object-position: top;
-
-    border-radius: 400px;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
-
-@media (max-width: 600px) {
-    .img-home {
-        top: 70px;
-        left: 280px;
-
-        width: 200px;
-        height: 200px;
-    }
-}
-
-@media (min-width: 600px) and (max-width: 768px) {
-    .img-home {
-        top: 50px;
-        left: 380px;
-
-        width: 260px;
-        height: 260px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .img-home {
-        top: 34px;
-        left: 480px;
-
-        width: 290px;
-        height: 290px;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-    .img-home {
-        top: 34px;
-        left: 580px;
-    }
-}
-
-.text-home{
-    padding-top: 75px;
-}
-
-.title-home {
-    padding-bottom: 32px;
-}
-
-.subtitle-accent {
-    color: var(--text-red);
-}
-
-.subtitle-home {
-    padding-bottom: 80px;
-}
-
-
-/* ОБО МНЕ */
-
-.about-title-list {
-    margin-left: auto;
-    width: calc(100% / 2 - var(--gap24));
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 24px;
-}
-
-.about-title-item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--gap24);
-}
-
-.about-title-indent {
-    padding-bottom: 8px;
-}
-
-.about-subtitle {
-    font-weight: 700;
-    background-color: var(--main-yellow);
-}
-
-.fillet-shape {
-    border-radius: 30px;
-    padding: 16px 48px 15px 48px;
-}
-
-.about-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--gap24);
-}
-
-.about-item {
-    width: calc((100% - var(--gap24)*1)/2);
-}
-
-.about-text {
-    font-size: 20px;
-    padding-bottom: 24px;
-}
-
-.skills-title {
-    font-size: 24px;
-    font-weight: 700;
-    padding-bottom: 16px;
-}
-
-.skills-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: var(--gap12);
-}
-
-.skills-item {
-    font-weight: 700;
-    font-size: 16px;
-    border: 1px solid var(--main-pink);
-    color: var(--main-pink-light);
-    border-radius: 30px;
-    padding: 15px 36px;
-}
-
-.about-img {
-    border-radius: 294px;
-    object-fit: cover;
-    object-position: top;
-    max-width: 588px;
-    max-height: 733px;
-}
-
-
-/* СИЛЬНЫЕ СТОРОНЫ */
-
-.background-border {
-    background-color: var(--main-pink-light);
-    border-radius: 30px;
-    margin: 80px 0px;
-    padding: 80px 0px;
-
-}
-
-.power-subtitle {
-    font-weight: 700;
-    background-color: var(--bg-white);
-    color: var(--text-red);
-}
-
-.power-title {
-    color: var(--text-white);
-}
-
-.left-alignment {
-    justify-content: end;
-}
-
-.nav-power-list { 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: var(--gap24);
-    padding-top: 40px;
-}
-
-.nav-power-item {
-    width: calc(100% - (var(--gap24)*2)/3);
-    border-radius: 30px;
-    border: 1px solid var(--bg-white);
-    text-align: center; 
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: var(--gap16);
-    padding: 80px 32px;
-}
-
-.power-subtitle-item {
-    font-size: 20px;
-    font-weight: 700;
-    color: var(--text-white);
-}
-
-.power-description {
-    color: var(--text-white);
-}
-
-.power-icon {
-    width: 70px;
-}
-
-
-/* Мое портфолио */
-
-.portfolio-list {
-    display: flex;
-    flex-direction: row;
-    gap: var(--gap24);
-    padding: 40px 0px 20px 0px;
-}
-
-.portfolio-item {
-    width: calc((100% - var(--gap24)*1)/2);
-
-    padding: 35px;
-    background: var(--bg-light);
-    border-radius: 30px;
-}
-
+/* ПОРТФОЛИО */
 .title-portfolio {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 120%;
+    padding-top: 40px;
     padding-bottom: 24px;
-}
-
-.img-portfolio {
-    border-radius: 20px;
-    object-fit: contain;
-    width: 100%;
 }
 
 
