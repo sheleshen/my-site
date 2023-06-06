@@ -385,17 +385,17 @@ h2, .about-title {
 
 .hamburger-icon {
     font-size: 32px;
-    color: var(--text-menu);
+    color: var(--text-black);
     cursor: pointer;
 }
 
 .hamburger-icon:active {
-    color: var(--text-menu-hov);
+    color: var(--text-menu);
 }
 
 .icon-close {
     font-size: 32px;
-    color: var(--text-menu);
+    color: var(--text-black);
     cursor: pointer;
     display: none;
 }
@@ -414,7 +414,9 @@ h2, .about-title {
     justify-content: space-between;
     gap: 16px;
     padding: 32px;
-    background-color: var(--bg-light);
+    background-color: var(--bg-white);
+    border: 1px solid var(--bg-blue-light);
+    box-shadow: 0px 5px 0px var(--bg-blue-light);
     border-radius: 30px;
     /* width: 100%; */
 }
