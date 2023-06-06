@@ -68,8 +68,66 @@
     <header class="container">
         <nav class="navigation">
             <div class="hamburger-menu">
-                <i class="fa-solid fa-bars hamburger-icon"></i>
-                <!-- <img src="/icon/fair.svg" alt=""> -->
+                <i id="icOpen" onclick="openMenu()" class="fa-solid fa-bars hamburger-icon"></i>
+                <!-- <div id="mobMenu" class="menu">
+                    <ul class="nav-list-mob">
+                        <a href="/index.html#me">
+                            <li class="nav-item-mob">
+                                Обо мне
+                            </li>
+                        </a>
+                        <a href="/index.html#skills">
+                            <li class="nav-item-mob">
+                                Мои навыки
+                            </li>
+                        </a>
+                        <a href="/index.html#power">
+                            <li class="nav-item-mob">
+                                Мои сильные стороны
+                            </li>
+                        </a>
+                        <a href="/index.html#job">
+                            <li class="nav-item-mob">
+                                Мои работы
+                            </li>
+                        </a>
+                        <a href="#contacts">
+                            <li class="nav-item-mob">
+                                Контакты
+                            </li>
+                        </a>
+                    </ul>
+                </div> -->
+                <i id="icClose" onclick="openMenu()" class="fa-solid fa-xmark icon-close" style="display: none;"></i>
+            </div>
+            <div id="mobMenu" class="menu">
+                <ul class="nav-list-mob">
+                    <a href="/index.html#me">
+                        <li class="nav-item-mob">
+                            Обо мне
+                        </li>
+                    </a>
+                    <a href="/index.html#skills">
+                        <li class="nav-item-mob">
+                            Мои навыки
+                        </li>
+                    </a>
+                    <a href="/index.html#power">
+                        <li class="nav-item-mob">
+                            Мои сильные стороны
+                        </li>
+                    </a>
+                    <a href="/index.html#job">
+                        <li class="nav-item-mob">
+                            Мои работы
+                        </li>
+                    </a>
+                    <a href="#contacts">
+                        <li class="nav-item-mob">
+                            Контакты
+                        </li>
+                    </a>
+                </ul>
             </div>
         </nav>
     </header>
@@ -282,6 +340,8 @@
         </div>
 
     </footer>
+
+    <script src="/script.js"></script>
 
 </body>
 </html>
