@@ -25,30 +25,27 @@
 
 </head>
 <body>
-    
-    
     <!-- главная -->
-    <!-- Картинки на баннере -->
-    <!-- <img class="img-header" src="/images/bg/bg-header.png" alt="Фоновая картинка"> -->
+
     <!-- header для desctop версии -->
     <header class="container">
         <ul class="nav-list">
-            <a href="#me">
+            <a href="/index.html#me">
                 <li class="nav-item">
                     Обо мне
                 </li>
             </a>
-            <a href="#skills">
+            <a href="/index.html#skills">
                 <li class="nav-item">
                     Мои навыки
                 </li>
             </a>
-            <a href="#power">
+            <a href="/index.html#power">
                 <li class="nav-item">
                     Мои сильные стороны
                 </li>
             </a>
-            <a href="#job">
+            <a href="/index.html#job">
                 <li class="nav-item">
                     Мои работы
                 </li>
@@ -61,16 +58,144 @@
         </ul>
     </header>
 
+    <!-- header для mob версии -->
+    <header class="container">
+        <nav class="navigation">
+            <div class="hamburger-menu">
+                <i id="icOpen" onclick="openMenu()" class="fa-solid fa-bars hamburger-icon"></i>
+                <!-- <div id="mobMenu" class="menu">
+                    <ul class="nav-list-mob">
+                        <a href="/index.html#me">
+                            <li class="nav-item-mob">
+                                Обо мне
+                            </li>
+                        </a>
+                        <a href="/index.html#skills">
+                            <li class="nav-item-mob">
+                                Мои навыки
+                            </li>
+                        </a>
+                        <a href="/index.html#power">
+                            <li class="nav-item-mob">
+                                Мои сильные стороны
+                            </li>
+                        </a>
+                        <a href="/index.html#job">
+                            <li class="nav-item-mob">
+                                Мои работы
+                            </li>
+                        </a>
+                        <a href="#contacts">
+                            <li class="nav-item-mob">
+                                Контакты
+                            </li>
+                        </a>
+                    </ul>
+                </div> -->
+                <i id="icClose" onclick="openMenu()" class="fa-solid fa-xmark icon-close" style="display: none;"></i>
+            </div>
+            <div id="mobMenu" class="menu">
+                <ul class="nav-list-mob">
+                    <a href="/index.html#me">
+                        <li class="nav-item-mob">
+                            Обо мне
+                        </li>
+                    </a>
+                    <a href="/index.html#skills">
+                        <li class="nav-item-mob">
+                            Мои навыки
+                        </li>
+                    </a>
+                    <a href="/index.html#power">
+                        <li class="nav-item-mob">
+                            Мои сильные стороны
+                        </li>
+                    </a>
+                    <a href="/index.html#job">
+                        <li class="nav-item-mob">
+                            Мои работы
+                        </li>
+                    </a>
+                    <a href="#contacts">
+                        <li class="nav-item-mob">
+                            Контакты
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
     <main>
         <section class="container">
-            <h2 class="title-portfolio">
-                Раздел находится в рабработке
+            <h2 class="about-title">
+                Проекты и кейсы
             </h2>
-            <a href="/index.html">
-                <button class="btn cntr-alignment-mob">
-                    Вернуться на главную
-                </button>
-            </a>
+
+            <div class="portfolio-list">
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Редизайн и верстка сайта Русского музея
+                    </p>
+                    <a href="https://state-russian-museum.netlify.app/">
+                        <img class="img-portfolio" src="/images/russian-museum.svg" alt="Сайт Русского музея">
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Редизайн и верстка сайта ресторана
+                    </p>
+                    <a href="https://tan-zhen.netlify.app/">
+                        <img class="img-portfolio" src="/images/tan-zhen.svg" alt="Ресторан Тан Жен">
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Сайт об истории импрессионизма
+                    </p>
+                    <a href="https://imppession.netlify.app/">
+                        <img class="img-portfolio" src="/images/IMPRESSION.svg" alt="История импрессионизма">
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Сайт школы английского языка
+                    </p>
+                    <a href="https://tranquil-croissant-2d33e3.netlify.app/">
+                        <img class="img-portfolio" src="/images/english_house.svg" alt="Школа английского языка">
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Сайт стоматологическая клиники
+                    </p>
+                    <a href="https://enchanting-chaja-8349d3.netlify.app/">
+                        <img class="img-portfolio" src="/images/Dentо Plus.svg" alt="Стоматологическая клиника Dentо Plus">
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Сайт танцевальной студии
+                    </p>
+                    <a href="https://enchanting-chaja-8349d3.netlify.app/">
+                        <img class="img-portfolio" src="/images/Танцстудия.svg" alt="Танцевальная студия">
+                    </a>
+                </div>
+
+                <div class="portfolio-item">
+                    <p class="title-portfolio">
+                        Приложение "Список дел"
+                    </p>
+                    <a href="https://to-do-user.netlify.app/">
+                        <img class="img-portfolio" src="/images/Список дел.svg" alt="Список дел">
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
 
@@ -120,8 +245,9 @@
                 </p>
             </div>
         </div>
-
     </footer>
+
+    <script src="/script.js"></script>
 
 </body>
 </html>
