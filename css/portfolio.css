@@ -430,7 +430,6 @@ h2, .about-title {
     font-size: 32px;
     color: var(--text-black);
     cursor: pointer;
-    display: inline;
 }
 
 .hamburger-icon:active {
